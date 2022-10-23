@@ -1,11 +1,12 @@
-import './App.css'
+import { Login } from './pages/Login';
 import { GlobalStyle } from './styles/global'
+import { Container } from './styles'
 
 export function App() {
   return (
-    <>
+    <Container>
       <GlobalStyle />
-      <h1>Hi!</h1>
-    </>
+      <Login />
+    </Container>
   );
 }
